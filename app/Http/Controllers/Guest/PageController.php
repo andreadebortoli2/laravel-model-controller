@@ -13,4 +13,9 @@ class PageController extends Controller
         $movies = Movie::orderByDesc('id')->get();
         return view('guests.welcome', compact('movies'));
     }
+
+    public function about()
+    {
+        return view('guests.about');
+    }
 }

@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PageController::class, 'index'])->name('guests.welcome');
+
+Route::get('/about', [PageController::class, 'about'])->name('guests.about');
