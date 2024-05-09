@@ -12,7 +12,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">{{ $movie->title }}</h4>
-                            <h5 class="card-title">{{ $movie->original_title }}</h5>
+                            <h5 class="card-title"><span>Original title: </span>{{ $movie->original_title }}</h5>
                             <p class="card-text">Nationality: {{ $movie->nationality }}</p>
                             <p class="card-text">Release date: {{ $movie->date }}</p>
                             <p class="card-text">Vote: {{ $movie->vote }}/10</p>

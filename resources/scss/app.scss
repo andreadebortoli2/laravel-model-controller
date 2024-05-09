@@ -1,6 +1,9 @@
+@use './partials/Header';
+@use './partials/Footer';
+@use './partials/Welcome';
+
 @import '~bootstrap/scss/bootstrap';
 
-a {
-    color: black;
-    text-decoration: none;
+main {
+    min-height: 70vh;
 }

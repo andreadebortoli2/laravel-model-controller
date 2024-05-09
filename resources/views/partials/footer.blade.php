@@ -29,7 +29,11 @@
                 </ul>
             </div>
             <div class="col">
-                <h2 class="text-center">LOGO</h2>
+                <div class="logo">
+                    <a href="/">
+                        🎞️
+                    </a>
+                </div>
             </div>
         </div>
     </div>

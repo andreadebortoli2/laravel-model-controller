@@ -16,7 +16,7 @@ Oggi facciamo la nostra prima vera interazione con il database utilizzando l’O
 
 7a - All’interno della funzione index() del controller, recuperate tutti i film dal database ✓
 
-7b - e passateli alla view, che quindi li visualizzerà a schermo, tramite delle card.
+7b - e passateli alla view, che quindi li visualizzerà a schermo, tramite delle card. ✓
 
 ## BONUS:
-- Stilare il layout nei dettagli con Sass
+- Stilare il layout nei dettagli con Sass ✓
